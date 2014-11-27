@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 21, 2014 1:12:11 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="beans.NoticeBoard" table="NOTICE_BOARD">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="notice" type="java.lang.String">
+            <column name="NOTICE" />
+        </property>
+        <property name="noticeDate" type="java.util.Date">
+            <column name="NOTICE_DATE" />
+        </property>
+        <property name="noticeFormat" type="java.lang.String">
+            <column name="NOTICE_FORMAT" />
+        </property>
+        <property name="raisedBy" type="int">
+            <column name="RAISED_BY" />
+        </property>
+        <property name="subject" type="java.lang.String">
+            <column name="SUBJECT" />
+        </property>
+    </class>
+</hibernate-mapping>

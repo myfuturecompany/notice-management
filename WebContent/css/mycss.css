@@ -1,0 +1,102 @@
+body {
+	
+	background-color: black;
+	
+}
+
+div.myprofile{
+	color:white;
+
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	border-radius: 99px;
+
+	-webkit-box-shadow: #878787 23px 23px 23px;
+	-moz-box-shadow: #878787 23px 23px 23px;
+	box-shadow: #878787 23px 23px 23px;
+	
+	background-image:url("/noticeboard/image/login.jpg");
+	background-size: 100% 500px;
+    background-repeat: no-repeat;	
+    
+    text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+    
+    
+}
+
+
+div.curveedge{
+	color:white;
+	width:400px;
+	height:300px;
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	border-radius: 99px;
+
+	-webkit-box-shadow: #878787 23px 23px 23px;
+	-moz-box-shadow: #878787 23px 23px 23px;
+	box-shadow: #878787 23px 23px 23px;
+	
+	position: fixed;
+	top: 30%;
+	right: 5%;
+	background-image:url("/noticeboard/image/login.jpg");
+	background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+
+
+div.registration{
+	color:white;
+	width:450px;
+	height:450px;
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	border-radius: 99px;
+	-webkit-box-shadow: #878787 23px 23px 23px;
+	-moz-box-shadow: #878787 23px 23px 23px;
+	box-shadow: #878787 23px 23px 23px;
+	
+	position: fixed;
+	top: 20%;
+	left:30%;
+	background-image:url("/noticeboard/image/login.jpg");
+	background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+
+div.notice{
+	color:white;
+	width:600px;
+	height:500px;
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	border-radius: 99px;
+	-webkit-box-shadow: #878787 23px 23px 23px;
+	-moz-box-shadow: #878787 23px 23px 23px;
+	box-shadow: #878787 23px 23px 23px;
+	
+	position: fixed;
+	top: 17%;
+	left:22%;
+	background-image:url("/noticeboard/image/login.jpg");
+	background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+
+div.header {
+	background-image:url("/noticeboard/image/login.jpg");
+	width: 100%; 
+	color: white;
+	
+	text-transform: uppercase;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 30px;
+	
+	background-size: 100% 500px;
+    background-repeat: no-repeat;	
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://getahead.org/dwr/dwr30.dtd">
+
+<dwr>
+  <allow>
+    <create creator="new" javascript="JDate">
+      <param name="class" value="java.util.Date"/>
+    </create>
+    <create creator="new" javascript="AdminServices">
+      <param name="class" value="services.AdminServices"/>
+    </create>
+    <create creator="new" javascript="AgencyServices">
+      <param name="class" value="services.AgencyServices"/>
+    </create>
+    <create creator="new" javascript="LoginServices">
+      <param name="class" value="services.LoginServices"/>
+    </create>
+    <create creator="new" javascript="UserServices">
+      <param name="class" value="services.UserServices"/>
+    </create>
+   
+    <convert converter="bean" match="beans.*"/>
+    
+  </allow>
+</dwr>
